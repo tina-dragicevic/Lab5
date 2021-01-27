@@ -1,0 +1,29 @@
+{
+  "brokerURL" : "tcp://localhost:1883",
+  "topic" : "1",
+  "sensors" : [ {
+    "name" : "Water Temperature ",
+    "factor" : 10,
+    "minRangeValue" : -3266.8,
+    "maxRangeValue" : 3266.8,
+    "unit" : " degrees Celsius "
+  }, {
+    "name" : " Water Pressure ",
+    "factor" : 1000,
+    "minRangeValue" : 0.0,
+    "maxRangeValue" : 65.336,
+    "unit" : " Bar "
+  }, {
+    "name" : " Daily Consumption ",
+    "factor" : 0,
+    "minRangeValue" : 0.0,
+    "maxRangeValue" : 65336.0,
+    "unit" : " liter "
+  }, {
+    "name" : " Consumption per Year ",
+    "factor" : 10,
+    "minRangeValue" : 0.0,
+    "maxRangeValue" : 6533.6,
+    "unit" : " m3 "
+  } ]
+}
